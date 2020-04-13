@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb91fa49f6f410cb6256431f92f129f, type: 3}
+  m_Name: TanksConfig
+  m_EditorClassIdentifier: 
+  Tanks:
+  - {fileID: 11400000, guid: 8ed06d207be7d3c48afc52855cc29710, type: 2}
+  - {fileID: 11400000, guid: 62af05536ee23cc4da658bb7d3b48a87, type: 2}
+  - {fileID: 11400000, guid: a2a81f29b3e3bce4fb89326b8acec332, type: 2}
+  AllyMarker: {fileID: -5099515547471785179, guid: c2b1fbaa086216c479d413f5c28edb7d,
+    type: 3}
+  EnemyMarker: {fileID: 6426603964585350612, guid: c2b1fbaa086216c479d413f5c28edb7d,
+    type: 3}
+  EmblemDead: {fileID: -1059148098480851349, guid: c2b1fbaa086216c479d413f5c28edb7d,
+    type: 3}
+  Speed: 3
+  Lives: 3
+  RespawnTime: 3
+  PlayerTankId: PlayerTankId
+  InvincibleDuration: 3

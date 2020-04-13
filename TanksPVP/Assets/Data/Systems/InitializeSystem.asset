@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0866930213b1e344a26ae1bc11ade55, type: 3}
+  m_Name: InitializeSystem
+  m_EditorClassIdentifier: 
+  Config: {fileID: 11400000, guid: 1fcc70e4f673ae841889cda2adb0b445, type: 2}
+  StartGameEvent: {fileID: 11400000, guid: bb28219c6e5e5484aa72c58879b81ff9, type: 2}
+  InitializeTanks: {fileID: 11400000, guid: 68c7e5b4c7bee1c40bb497149bce6315, type: 2}
