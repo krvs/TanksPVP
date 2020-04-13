@@ -1,11 +1,8 @@
 ﻿using Morpeh;
 using Morpeh.Globals;
 using Photon.Pun;
-using Photon.Pun.Demo.Asteroids;
-using Photon.Realtime;
 using UnityEngine;
 using Unity.IL2CPP.CompilerServices;
-using UnityEngine.UI;
 
 [Il2CppSetOption(Option.NullChecks, false)]
 [Il2CppSetOption(Option.ArrayBoundsChecks, false)]

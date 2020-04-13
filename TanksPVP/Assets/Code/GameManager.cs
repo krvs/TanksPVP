@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Morpeh;
+﻿using System.Collections.Generic;
 using Morpeh.Globals;
 using Photon.Pun;
-using Photon.Pun.Demo.Asteroids;
 using Photon.Pun.UtilityScripts;
 using Photon.Realtime;
 using UnityEngine;
@@ -37,7 +33,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         var props = new Hashtable
         {
-            {AsteroidsGame.PLAYER_LOADED_LEVEL, true}
+            {_tanksConfig.PlayerLoadedLevel, true}
         };
         PhotonNetwork.LocalPlayer.SetCustomProperties(props);
         
